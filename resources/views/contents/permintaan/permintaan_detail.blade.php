@@ -13,11 +13,12 @@ $output .= '
     <tbody>';
 $no = 1;                            
 foreach($detail as $d):
+$kuantiti = ($d->barang->tersedia > $d->kuantiti) ? '<font color="green">'.$d->kuantiti.'</font>' : '<font color="red">'.$d->kuantiti.'</font>';
 $output .=  '
         <tr>
             <td align="center">'.$no++.'</td>
             <td align="center">'.$d->barang->nama.'</td>
-            <td align="center">'.$d->kuantiti.'</td>
+            <td align="center">'.$kuantiti.'</td>
         </tr>
 ';
 endforeach;
