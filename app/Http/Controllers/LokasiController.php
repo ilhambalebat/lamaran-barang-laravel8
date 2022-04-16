@@ -9,7 +9,7 @@ class LokasiController extends Controller
 {
     public function index()
     {
-        $data = Lokasi::orderByRAW('LENGTH(nama)', 'ASC')->orderBy('nama', 'ASC')->get();
-        return view('contents.lokasi.lokasi',compact('data'));
+        $data = Lokasi::orderBy('nama', 'ASC')->get();
+        return view('contents.lokasi.lokasi', compact('data'));
     }
 }
