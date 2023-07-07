@@ -22,5 +22,4 @@ ditujukan sebagai syarat lamaran pekerjaan sebagai Web Developer
     pass : user
 
 Live Demo : https://barang.satuarah.id <br />
-Link Github : https://github.com/ilhambalebat/lamaran-barang-laravel8 <br />
 Link GDrive : https://drive.google.com/file/d/1kyFutnCKSQwb93s9XEO_huvqqkuHMmeM/view?usp=sharing <br />
